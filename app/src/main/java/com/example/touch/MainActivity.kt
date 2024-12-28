@@ -80,7 +80,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         color = Color.Blue)
     Image(
         painter = painterResource(id = R.drawable.hand),
-        contentDescription = "手掌圖片",
+        contentDescription = "手掌",
         alpha = 0.7f,
         modifier = Modifier
             .clip(CircleShape)
